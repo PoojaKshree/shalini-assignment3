@@ -1,0 +1,20 @@
+OUTPUT:
+
+ EXAMPLE:
+ INPUT TO FILE
+ 18,15,10
+ 25,24,15
+
+CAPACITY=20
+
+OUTPUT:
+ the result vector is :: 0 1 0
+ Maximum profit is :: 31.50
+
+
+TIME COMLEXITY OF KNAPSACK USING GREEDY METHOD:
+
+*The main time taking step is the sorting of all items in decreasing order of their profit /weight ratio.
+*if the items are already arranged in the required order,then loop takes O(n) time.
+*The average time complexity of Quick Sort is O(nlogn).
+*therefre, total time taken including the sort is O(nlogn).
